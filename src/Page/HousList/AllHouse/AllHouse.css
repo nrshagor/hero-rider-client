@@ -1,0 +1,72 @@
+.products{
+    width: 100%;
+    padding: 53px 0px;
+    z-index: 1;
+    background-color: aliceblue;
+}
+.house-info{
+    display: grid;
+    grid-column-gap: 17px;
+    grid-template-columns: repeat(2,2fr);
+}
+.house-info p{
+    text-align: justify;
+
+}
+.card-body{
+    display: grid;
+    padding: 30px 120px;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    padding: 0px 0px 10px;
+    margin: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 2px #0000007c;
+    transition: .9s all ease;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 0px #06ac3291;
+}
+.products-img img{
+width: 100%;
+
+min-height: 250px;
+display: block;
+} 
+.products-info{
+margin: 10px 10px;
+} 
+.products-info h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.products-info p{
+    font-size: 16px;
+} 
+/* ------------------------
+        Mobile
+-------------------------*/
+@media only screen and (max-width:540px) {
+    /* Latest Product*/
+    .card-body{
+        display: block;
+        padding: 30px 20px;
+    }
+
+}
+/* ------------------------
+        Tablet
+-------------------------*/
+@media only screen and (min-width:541px) and (max-width:768px){
+
+  /* Latest Product*/
+    .card-body{
+        display: grid;
+        padding: 30px 60px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}

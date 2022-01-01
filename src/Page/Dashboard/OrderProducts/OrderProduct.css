@@ -1,0 +1,29 @@
+.status{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: blanchedalmond;
+    border: 1px solid rgb(209, 208, 208);
+    outline: none;
+    cursor: pointer;
+    background-color: #ff0800;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all .8s;
+}
+.status:hover{
+    color: rgb(233, 13, 13);
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+}
+.approved{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    outline: none;
+color: rgb(17, 17, 17);
+    background-color: #3aff33;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all .8s;
+}

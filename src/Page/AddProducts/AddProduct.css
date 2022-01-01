@@ -1,0 +1,26 @@
+.add-product-background{
+    background: linear-gradient(rgba(255, 255, 255, 0.699),rgba(223, 223, 223, 0.842)0.842);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 1px;
+    backdrop-filter: blur(10px);
+}
+.add-product-box{
+  
+    max-width: 1000px;
+    float: none;
+    margin: 150px auto;
+}
+.add-product-right{
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.986);
+    padding: 30px;
+}
+.add-product-left{
+    background: linear-gradient(rgba(0, 0, 50, 0.027),rgba(0, 0, 50, 0.014));
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+
+}

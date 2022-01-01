@@ -1,0 +1,25 @@
+.dashbord-left{
+    background-color: rgb(5, 5, 5) !important;
+    padding: 0px 0px 10px;
+    margin: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 2px #0000007c;
+    transition: .9s all ease;
+}
+.nav-link  {
+    color: rgba(255, 255, 255, 0.986) !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .8s;
+}
+.nav-link:hover {
+    color: rgba(5, 5, 5, 0.986) !important;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background-color: #f9c92f;
+}
